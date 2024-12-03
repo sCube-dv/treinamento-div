@@ -1,0 +1,21 @@
+.container {
+    background-color: aquamarine;
+    width: 60%;
+    margin: auto;
+}
+
+.superior {
+    background-color: red;
+    margin-top: 10px;
+    display: inline;
+}
+
+.inferior {
+    background-color: blue;
+    margin: 10px 10px 10px 10px;
+}
+
+.conteudo1, .conteudo2, .conteudo3 {
+    background-color: white;
+    display: inline-block;
+}
