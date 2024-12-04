@@ -1,21 +1,78 @@
-.container {
-    background-color: aquamarine;
-    width: 60%;
+.pai {
+    background-color: skyblue;
+    width: 70%;
     margin: auto;
+    padding: 20px;
 }
 
-.superior {
+.f1 {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-bottom: 15px;
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    */
+}
+
+.f2 {
+    background-color: #d3d3d3;
+    padding: 20px;
+
+}
+
+.n1 {
     background-color: red;
-    margin-top: 10px;
-    display: inline;
 }
 
-.inferior {
+.n2 {
     background-color: blue;
-    margin: 10px 10px 10px 10px;
 }
 
-.conteudo1, .conteudo2, .conteudo3 {
-    background-color: white;
+.n3 {
+    background-color: green;
+}
+
+.n1,
+.n2,
+.n3 {
+    display: inline-block;
+    padding: 20px;
+    width: 24%;
+}
+
+.n4 {
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.n5 {
+    background-color: orange;
+    width: 55%;
+    margin-right: 27px;
+}
+
+.n6 {
+    background-color: rgb(139, 18, 139);
+    width: 22%;
+}
+
+.n7 {
+    background-color: rgb(197, 82, 197);
+    margin-top: 15px;
+}
+
+.n4,
+.n5,
+.n6,
+.n7 {
+    padding: 20px;
+}
+
+.n5,
+.n6 {
     display: inline-block;
 }
+
